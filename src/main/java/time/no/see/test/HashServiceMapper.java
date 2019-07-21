@@ -27,7 +27,7 @@ import util.PasswordHelper;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = StartApplication.class)
-public class DataAddMapper {
+public class HashServiceMapper {
 		
     private RandomNumberGenerator randomNumberGenerator = new SecureRandomNumberGenerator();
 
